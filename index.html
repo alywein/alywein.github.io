@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang='en-us'>
     <head>
+        <meta charset="en-us">
+        <meta name='viewport' content='width-device-width, initial-scale=1.0'>
+        <meta name='description' content='an assignment portal for Aly Weinheimer'>
+        <link href='css/main.css' rel='stylesheet'>
         <title>Aly Weinheimer</title>
+       
     </head>
     <body>
-        <h1>CIT 230: Assignment Portal</h1>
+        <header> 
+             <img src="images/photoForPortal.jpg" alt='Photo of Aly Weinheimer' width='150px'> 
+             <h1>Aly Weinheimer</h1>
+        </header>
+        
+        <h2> CIT 230: Assignment Portal</h2>
             <ul>
-                <li>Lesson 02: Assignment Link</li>
-
+                <a href='#'><li>Lesson 02: Assignment Link</li></a>
+                <a href='#'><li>Lesson 03: Assignment Link</li></a>
+                <a href='#'><li>Lesson 03: Assignment Link</li></a>
             </ul>
-    </body>
-    <footer>
-       <p> 2020 | Aly Weinheimer | Utah | BYUI Online Learning </p>
-    </footer>
+         <footer>
+                <p>  © 2020 | Aly Weinheimer | Utah | BYUI Online Learning </p>
+                <p id='updateDate'>Last Updated: </p>
+             </footer>
+
+             <script> 
+            //toLocaleDateString
+            const options= {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+            document.getElementById('updateDate').textContent=new Date().toLocaleDateString('en-us', options);
+            const todaysDate= new Date();
+            </script>
+        </body>
+   
 </html>

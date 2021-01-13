@@ -1,0 +1,39 @@
+body {
+    margin: 1.25 rem, auto;
+    line-height:normal;
+}
+
+header {
+    background-color: darkolivegreen;
+    font-size: large;
+    
+   
+}
+h1{
+    color:honeydew;
+    padding: 5px;
+    text-align: center;
+}
+img {
+    float: right;
+    margin-right: 2em;
+    margin-top: 1em;
+    padding: 10px;
+ 
+}
+h2 {
+ text-emphasis: bold;
+ color:darkslategrey;
+}
+ul{
+    margin-left: 15px;
+}
+footer p {
+    color:honeydew;
+}
+footer {
+    background-color: darkolivegreen;
+    text-align: center;
+   
+    
+}
