@@ -22,15 +22,10 @@
             </ul>
          <footer>
                 <p>  © 2020 | Aly Weinheimer | Utah | BYUI Online Learning </p>
-                <p id='updateDate'>Last Updated: </p>
+                <p id='updateDate'></p>
              </footer>
-
-             <script> 
-            //toLocaleDateString
-            const options= {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-            document.getElementById('updateDate').textContent=new Date().toLocaleDateString('en-us', options);
-            const todaysDate= new Date();
-            </script>
+             <script src='js/currentDate.js'></script>
+             
         </body>
    
 </html>
