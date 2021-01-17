@@ -3,37 +3,43 @@ body {
     line-height:normal;
 }
 
-header {
+header, footer {
     background-color: darkolivegreen;
-    font-size: large;
+    text-align: center;
     
    
 }
+h1, h2, p {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
 h1{
     color:honeydew;
     padding: 5px;
     text-align: center;
+    font-size: 1.5rem;
 }
 img {
-    float: right;
-    margin-right: 2em;
-    margin-top: 1em;
+   
+    
     padding: 10px;
  
 }
 h2 {
  text-emphasis: bold;
  color:darkslategrey;
+ font-size: 1rem; 
 }
 ul{
     margin-left: 15px;
 }
 footer p {
+    text-align: center;
     color:honeydew;
+    
 }
 footer {
-    background-color: darkolivegreen;
-    text-align: center;
    
     
 }
