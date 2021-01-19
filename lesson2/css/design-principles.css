@@ -1,39 +1,33 @@
 body {
     margin: 1.25 rem, auto;
     line-height:normal;
+    grid-template-columns: 1rem, 1.5rem, 1.5rem, 1rem;
+    grid-template-rows: 1rem, 1rem, 1rem, 1rem;
 }
-
 header, footer {
     background-color: darkolivegreen;
     text-align: center;
     
    
 }
-h1, h2, p {
-    font-family: 'Montserrat', sans-serif;
+h1 {
     
-}
-
-h1{
     color:honeydew;
     padding: 5px;
     text-align: center;
     font-size: 1.5rem;
-}
-img {
    
-    
-    padding: 10px;
- 
+}
+#under-text {
+    text-align-last: center;
 }
 h2 {
- text-emphasis: bold;
- color:darkslategrey;
- font-size: 1rem; 
-}
-ul{
-    margin-left: 15px;
-}
+    text-emphasis: bold;
+    color:darkslategrey;
+    font-size: 1rem; 
+   }
+
+    
 footer p {
     text-align: center;
     color:honeydew;
