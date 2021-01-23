@@ -1,6 +1,7 @@
 body {
     margin: 1.25 rem, auto;
     line-height:normal;
+    display: grid;
     grid-template-columns: 1rem, 1.5rem, 1.5rem, 1rem;
     grid-template-rows: 1rem, 1rem, 1rem, 1rem;
 }
@@ -10,6 +11,11 @@ header, footer {
     
    
 }
+Header {
+    grid-row:1/2;
+    grid-column: 1 / 5;
+}
+
 h1 {
     
     color:honeydew;
@@ -22,10 +28,41 @@ h1 {
     text-align-last: center;
 }
 h2 {
+    text-align: center;
     text-emphasis: bold;
     color:darkslategrey;
     font-size: 1rem; 
    }
+
+#white-space-design {
+   
+    grid-row: 2;
+    grid-column: 2 / 3;
+}
+#first-example {
+    
+    grid-row: 2;
+    grid-column: 3 / 4;
+}
+#proximity {
+    
+
+    grid-row: 3;
+    grid-column: 2 / 3;
+}
+#second-example {
+
+    grid-row: 4;
+    grid-column: 3 / 4;
+}
+#contrast {
+    grid-row: 4;
+    grid-column: 3 / 4;
+}
+#third-example {
+    grid-row: 4;
+    grid-column: 3 / 4;
+}
 
     
 footer p {
