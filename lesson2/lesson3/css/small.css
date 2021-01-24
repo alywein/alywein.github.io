@@ -5,21 +5,26 @@ body {
     grid-template-columns: 1rem, 1rem;
     grid-template-rows: 50px, 50px, 1rem;
 }
-nav a {
-    display: inline;
+nav  {
+    display: inline-block;
     color:darkolivegreen;
     background-color: honeydew;
-    float:inline-start;
+    float: right;
     padding-right: 10px;
-    grid-row: 1/2;
-    grid-column: span;
-
+    
+   
 }
-ul {
+a{
+    
+}
+li {
     text-decoration: none;
+    list-style-type: none;
 }
-p {
+#jingle {
     text-align: center;
+    grid-row: 2/3;
+
     
 }
 .text {
@@ -35,9 +40,12 @@ h1{
     color: darkslategrey;
     padding: 5px;
     font-size: 1.5rem;
+    text-align: center;
+    grid-row: 2/3;
 }
 h2{
-    grid-row: 3;
+    grid-row: 3/4;
+    
 }
 img {
     
