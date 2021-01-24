@@ -1,0 +1,57 @@
+body {
+    margin: 1.25 rem, auto;
+    line-height: normal;
+    display: block;
+    grid-template-columns: 1rem, 1rem;
+    grid-template-rows: 50px, 50px, 1rem;
+}
+nav a {
+    display: inline;
+    color:darkolivegreen;
+    background-color: honeydew;
+    float:inline-start;
+    padding-right: 10px;
+    grid-row: 1/2;
+    grid-column: span;
+
+}
+ul {
+    text-decoration: none;
+}
+p {
+    text-align: center;
+    
+}
+.text {
+    text-align: left;
+}
+}
+h1, h2, p {
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+h1{
+    color: darkslategrey;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+h2{
+    grid-row: 3;
+}
+img {
+    
+    padding: 10px;
+ 
+}
+
+h2 {
+ text-emphasis: bold;
+ color:darkslategrey;
+ font-size: 1rem; 
+}
+footer p {
+    text-align: center;
+    color:honeydew;
+    
+}
