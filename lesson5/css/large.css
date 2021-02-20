@@ -1,0 +1,41 @@
+
+@media only screen and (min-width:32.5em){
+  .navigation {
+    display flex;
+  
+  }
+  .navigation li{
+display: block;
+flex: 1 1 auto;
+  }
+
+  .navigation a {
+  text-align: center;
+  }
+  
+  .navigation li:first-child {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+    .headings {
+      flex-direction: column;
+    }
+    ul {
+      flex-direction: column;
+    }
+    h1{
+      font-size: 1.5 rem;
+  } 
+  h2{
+      font-size: 1 rem;
+  }  
+  header, footer {
+     background-color:#00a99d;
+     text-align: center;  
+ } 
+ .headings {
+   text-align: left;
+ }
+}
